@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'techno';
+    src: url(../fontes/Library\ 3\ am.otf) format('opentype');
+}
+
+:root {
+    --cor1: #A19F7D;
+    --cor2: #020202;
+    --cor3: #5D5C47;
+    --cor4: #FCEE19;
+    --cor5: #807F62;
+    --cor6: #BFB41A;
+}
+
+body {
+    background-color: #020202;
+}
+
+main {
+    margin: 52px auto;
+    padding: 0px 17px 5px 17px;
+    width: 1000px;
+    background-color: #D0CFBB;
+}
+
+h1 {
+    font-family: 'techno', Arial, Helvetica, sans-serif;
+    color: rgb(24, 185, 137);
+    padding-top: 10px;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+main h2 {
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.562), #807F62);
+}
+
+main p {
+    text-align: justify;
+    text-indent: 5px;
+}
+
+nav {
+    padding-top: 10px;
+}
+
+nav > a {
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    border: 1px groove rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+nav > a:hover {
+    color: var(--cor5);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(104, 62, 15);
+}
+
+a::after {
+    content: '\00A0\1F517';
+}
+
+footer p {
+    text-align: center;
+}
